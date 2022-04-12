@@ -1,0 +1,31 @@
+// #### Angular 
+sudo npm i -g @angular/cli
+// #### Show help for commands
+ng
+// #### create a frontend of the project
+ng new project_folder_name
+// or
+ng new frontend
+// or
+ng new frontend --minimal // -- minimal crate a workspace without ant testing frameworks
+
+// #### commands used to create this frontend project
+sudo npm i -g @angular/cli
+ng new frontend --minimal
+? Would you like to add Angular routing? Yes
+? Which stylesheet format would you like to use? CSS
+
+// #### Terminals
+// terminal 1 - json server
+cd backend/
+npm start
+
+// terminal 2 - angular automatic compiling
+cd frontend/
+npm start
+
+// terminal 3 - 
+
+// #### Localhost
+angular     - http://localhost:4200/
+json server - http://localhost:3001/ 

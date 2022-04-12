@@ -1,0 +1,16 @@
+@url = http://localhost:3001/products
+GET {{url}}
+###
+
+# {{apiURL}}?nome=Arthur&idade=19
+# ### 3 serquilhas finaliza entre uma chamada e outra pra aparecer o 'send request'
+
+
+POST {{url}}
+Content-Type: application/json
+# Authorization: Bearer bote_seu_token_aqui
+
+{
+  "name": "Calculadora",
+  "price": 45.80
+}
